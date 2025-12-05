@@ -1,7 +1,5 @@
 package gr.aueb.cf.cf9.part1pop.ch2;
 
-package gr.aueb.cf.cf9.ch2;
-
 import java.util.Scanner;
 
 /**
