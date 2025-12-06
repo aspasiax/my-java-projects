@@ -5,7 +5,7 @@ out/
 .kotlin
 
 .idea/
-CFProjects.iml
+CodingFactory9FProjects.iml
 **/*.log
 
 ### Eclipse ###
