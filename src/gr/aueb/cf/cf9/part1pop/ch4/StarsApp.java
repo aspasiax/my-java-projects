@@ -37,7 +37,6 @@ public class StarsApp {
         }
 
         // 4. Ascending Triangle (1 to 10)
-        // The inner loop runs 'i' times (dependent on the outer loop)
         System.out.println("\n4. Ascending Right Triangle (1 to 10 stars): ");
         for (int i = 1; i <= 10; i++) {
             for (int j = 1; j <= i; j++) {
@@ -47,7 +46,6 @@ public class StarsApp {
         }
 
         // 5. Descending Triangle (10 to 1)
-        // Outer loop starts from 10 and decreases
         System.out.println("\n5. Descending Right Triangle (10 to 1 stars):");
         for (int i = 10; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
