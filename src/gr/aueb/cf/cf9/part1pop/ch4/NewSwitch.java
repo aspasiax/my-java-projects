@@ -8,6 +8,7 @@ import java.util.Scanner;
  * Arrow operator (->): Eliminates the need for explicit break statements.
  * Multiple labels: Allows comma-separated values in a single case.
  */
+
 public class NewSwitch {
 
     public static void main(String[] args) {
