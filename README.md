@@ -1,1 +1,1 @@
-Codind Factory 9 AUEB Java Projects
+Coding Factory 9 AUEB Java Projects
