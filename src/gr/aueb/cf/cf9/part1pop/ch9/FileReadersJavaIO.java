@@ -12,18 +12,15 @@ public class FileReadersJavaIO {
 
     public static void main(String[] args) {
         // Use a relative path for portability
-        String filePath = "test-input.txt";
-        File file = new File(filePath);
-
-        // Create a dummy file to read from
-        createFile(file);
+        String filePath = "src/gr/aueb/cf/cf9/part1pop/ch9/test.txt";
+        File testFile = new File("src/gr/aueb/cf/cf9/part1pop/ch9/test.txt");
 
         try {
             System.out.println("Method 1: Reading Character by Character: ");
-            readFileCharByChar(file);
+            readFileCharByChar(testFile);
 
             System.out.println("\nMethod 2: Reading Line by Line:");
-            readFileLineByLine(file);
+            readFileLineByLine(testFile);
 
         } catch (IOException e) {
             System.err.println("File Error: " + e.getMessage());
