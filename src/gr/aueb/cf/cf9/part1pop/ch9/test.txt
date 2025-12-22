@@ -1,0 +1,2 @@
+Method 1: Hello from FileWriter
+Method 2: Hello from BufferedWriter
