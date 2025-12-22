@@ -38,12 +38,12 @@ public class CopyAttachedWithMetadata {
             extension = filename.substring(dotIndex);
         }
 
-        // --- UUID Generation
+        // UUID Generation
         String uniqueName = UUID.randomUUID().toString().replace("-", "");
         String destinationFileName = fileSystemPath + uniqueName + extension;
         File destFile = new File(destinationFileName);
 
-        // --- Copy Process
+        // Copy Process
         try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream(sourceFile));
              BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(destFile))) {
 
