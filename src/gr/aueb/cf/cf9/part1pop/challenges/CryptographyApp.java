@@ -20,7 +20,7 @@ public class CryptographyApp {
 
         // Encryption
         String encrypted = cipher(s, KEY);
-        System.out.println("Encrypted (Int Sequence): " + encrypted);
+        System.out.println("Encrypted: " + encrypted);
 
         // Decryption
         String decrypted = decipher(encrypted, KEY);
